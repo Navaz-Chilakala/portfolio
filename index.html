@@ -82,6 +82,7 @@
                 <div class="hero__text">
                     <h1>Backend systems and AI agents.</h1>
                     <p class="lead hero__lead"><span id="typewriter">Senior R&D Engineer</span> at Tejas Networks: Python, Java and agentic AI.</p>
+                    <p class="hero__avail"><span class="hero__dot" aria-hidden="true"></span>Open to Senior Backend &amp; Agentic AI Engineer roles · Bangalore / Remote</p>
                     <div class="hero__actions">
                         <a href="#projects" class="key key--primary">View my work</a>
                         <a href="/Navaz_Chilakala_Resume.pdf" target="_blank" rel="noopener" class="key">Download resume</a>
@@ -117,8 +118,8 @@
                                 <dd class="stat-figure"><span class="stat-number" data-target="6000">6,000</span>+</dd>
                             </div>
                             <div class="stat-item">
-                                <dt class="stat-label">CGPA in B.Tech, Computer Science</dt>
-                                <dd class="stat-figure"><span class="stat-number" data-target="9">9</span>.0</dd>
+                                <dt class="stat-label">Enterprise customers won with the deal-guidance feature I built</dt>
+                                <dd class="stat-figure"><span class="stat-number" data-target="3">3</span></dd>
                             </div>
                             <div class="stat-item">
                                 <dt class="stat-label">Faster packet-capture processing after I parallelized the engine</dt>
@@ -150,15 +151,15 @@
                             <p class="role__company">Tejas Networks, Bangalore</p>
                         </div>
                         <div class="role__body">
-                            <h3>Senior R&D Engineer</h3>
-                            <p class="role__sub">Backend & AI</p>
+                            <h3>Senior R&amp;D Engineer</h3>
+                            <p class="role__sub">Backend &amp; AI</p>
+                            <p class="role__intro">I lead agentic AI tooling for 5G Core engineering and own the release analytics platform. My work turns operations knowledge into safe, read-only AI agents that engineers can trust.</p>
                             <ul>
-                                <li><strong>AI Diagnostics Agent.</strong> Designed and built, end to end, a read-only, multi-cluster agentic AI platform. It turns an engineer’s plain-language question into an evidence-based investigation across Kubernetes, Prometheus, Grafana, Elasticsearch, MariaDB, MongoDB and Linux, and produces a root-cause analysis report.</li>
-                                <li><strong>MCP security gateway.</strong> Built a Python gateway for the Model Context Protocol that masks customer and device identifiers, phone numbers, tokens and secrets before any data reaches the AI model, with session-scoped HMAC-SHA256 tokens, fail-closed tool allowlists and hash-only audit logs.</li>
-                                <li><strong>LLM + RAG for network traffic analysis.</strong> Lead an AI initiative applying LLMs with retrieval-augmented generation (LangChain, ChromaDB, Claude API) to anomaly detection and root-cause analysis on network traffic captures.</li>
-                                <li><strong>Release analytics platform owner.</strong> Own and keep developing the Django/React platform engineering teams use to plan releases, track runs and see what changed between releases.</li>
-                                <li>Building new protocol services over TCP/SCTP (Diameter, the telecom signaling protocol behind SMS delivery and subscriber lookups), extending the platform beyond HTTP/2 APIs.</li>
+                                <li><strong>AI Diagnostics Agent.</strong> A read-only agent across 3 Kubernetes clusters that turns a plain-language question into an evidence-backed root-cause report.</li>
+                                <li><strong>MCP security gateway.</strong> PII redaction, session-scoped HMAC-SHA256 tokens, fail-closed tool allowlists and hash-only audit logs keep identifiers out of the LLM.</li>
+                                <li><strong>LLM + RAG.</strong> Anomaly detection and failure explanation on network packet captures with LangChain, ChromaDB and the Claude API.</li>
                             </ul>
+                            <p class="role__tags">Python · MCP (FastMCP) · OpenCode · Kubernetes · Prometheus · Elasticsearch · LangChain · ChromaDB · Claude API</p>
                         </div>
                     </li>
 
@@ -168,36 +169,32 @@
                             <p class="role__company">Tejas Networks, Bangalore</p>
                         </div>
                         <div class="role__body">
-                            <h3>R&D Engineer</h3>
+                            <h3>R&amp;D Engineer</h3>
+                            <p class="role__intro">I built the release analytics platform as its sole developer, plus the high-throughput services and tooling behind 5G Core release work.</p>
                             <ul>
-                                <li><strong>Release analytics platform (TCMS).</strong> Sole architect, product owner and developer of a full-stack platform (Python, Django, Django REST Framework, PostgreSQL, React/TypeScript, Recharts), designed, built and deployed end to end and used across multiple engineering teams.</li>
-                                <li>Designed the Django data model and DRF API layer behind real-time dashboards: per-release status, feature-level heatmaps, release-over-release comparison, trend charts and 30-second auto-refresh.</li>
-                                <li>Built CSV bulk import/export, auto-generated hierarchical IDs, versioned runs per cluster and environment, and a JWT-secured review and approval workflow with a full audit trail.</li>
-                                <li>Migrated production data from MySQL to PostgreSQL (normalized 3NF schema, zero-downtime cutover) and added one-click Jenkins CI/CD pipeline triggers to the UI.</li>
-                                <li><strong>SbiSim.</strong> Built a high-throughput asynchronous HTTP/2 service in Python (asyncio) that emulates the backend services of a mobile network (5G Core policy, charging and subscriber-data functions: PCF, CHF, UDM), so teams can run production-scale traffic without a live network; reached 6,000+ calls per second.</li>
-                                <li>Made a network traffic-capture processing engine 93% faster with Python multiprocessing, and wrote compression utilities that cut artifact storage and CI upload time.</li>
-                                <li>Reworked the SSH client from a singleton into a multi-connection pool so workloads run in parallel across Kubernetes pods; built Prometheus-based pod-health monitoring.</li>
-                                <li>Built a log-retrieval service on Elasticsearch across Kubernetes namespaces and a dynamic API-handling service with runtime template rendering. Added lifecycle hooks, retries and recovery from hard process exits to keep long-running jobs reliable.</li>
+                                <li><strong>Release analytics platform.</strong> A Django/DRF and React platform used across engineering teams, with real-time dashboards, a JWT-secured approval workflow and a full audit trail.</li>
+                                <li><strong>6,000+ calls per second.</strong> SbiSim, an asyncio HTTP/2 service that emulates 5G policy, charging and subscriber-data functions, so teams can run production-scale traffic without a live network.</li>
+                                <li><strong>93% faster, zero downtime.</strong> Parallelized packet-capture processing with multiprocessing, and migrated production data from MySQL to a normalized PostgreSQL schema with zero downtime.</li>
                             </ul>
+                            <p class="role__tags">Python · Django · DRF · PostgreSQL · React · TypeScript · asyncio · HTTP/2 · Jenkins · Kubernetes</p>
                         </div>
                     </li>
 
                     <li class="role">
                         <div class="role__meta">
-                            <p class="role__date">Aug 2023 to May 2025</p>
+                            <p class="role__date">Aug 2023 to Apr 2025</p>
                             <p class="role__company">Forsys Software India Pvt. Ltd.</p>
                         </div>
                         <div class="role__body">
                             <h3>Software Engineer, Data Scientist</h3>
                             <p class="role__sub">RevOptic Revenue Intelligence Platform</p>
-                            <p class="role__intro">An end-to-end Unified Revenue Operations platform covering Opportunity, Quote, Win, Contract, Deliver and Revenue, with deal modeling, automated approvals, real-time quote guidance and ASC 606 / IFRS 15 compliant automated close.</p>
+                            <p class="role__intro">Backend and AI work on RevOptic, a revenue operations platform that runs from quote to revenue with ASC 606 / IFRS 15 compliant close.</p>
                             <ul>
-                                <li><strong>Revenue recognition (Java, Spring Boot, PL/SQL).</strong> Worked on the core ASC 606 / IFRS 15 logic: business rules in Java and Spring Boot REST APIs, plus PL/SQL procedures and materialized views that compute revenue schedules and feed period-end close and executive analytics dashboards.</li>
-                                <li><strong>Deal Guidance System.</strong> Took the AI ideas from my internship into production and shipped a tool that lets sales teams quantify revenue risk in a deal before committing to a contract, using K-Prototypes clustering (3 clusters) on region, discount, margin, company age and segment to group similar past deals. The feature helped win 3 customers.</li>
-                                <li><strong>Quote Recommendation Agent.</strong> Built a RAG-based agent in Python (FastAPI, LangChain) that recommends quotes in real time by reasoning over enterprise contracts and past deals.</li>
-                                <li>Improved the deal-closure propensity models through better feature engineering and calibration, for more reliable forecasts and less revenue leakage.</li>
-                                <li>Built spaCy retrieval pipelines for clause and obligation extraction from contracts, and led a TimeGPT proof of concept for revenue forecasting that influenced roadmap investment in AI-driven planning.</li>
+                                <li><strong>Revenue recognition.</strong> ASC 606 / IFRS 15 rules in Java and Spring Boot, with PL/SQL procedures and materialized views that compute revenue schedules.</li>
+                                <li><strong>Deal Guidance System.</strong> K-Prototypes clustering (3 clusters) on region, discount, margin, company age and segment shows sales teams the risk of a deal. It helped win 3 customers.</li>
+                                <li><strong>Quote Recommendation Agent.</strong> A RAG agent (FastAPI, LangChain) that recommends quotes in real time from enterprise contracts and past deals.</li>
                             </ul>
+                            <p class="role__tags">Java · Spring Boot · Oracle PL/SQL · Python · FastAPI · LangChain · scikit-learn · spaCy</p>
                         </div>
                     </li>
 
@@ -208,10 +205,12 @@
                         </div>
                         <div class="role__body">
                             <h3>Intern</h3>
+                            <p class="role__intro">Joined the core backend team on RevOptic and prototyped the AI features that later shipped.</p>
                             <ul>
-                                <li>Worked with the core backend team on RevOptic’s Java/Spring Boot services and PL/SQL layer, implementing revenue-recognition domain logic.</li>
-                                <li>Built Python proof-of-concepts applying AI to deal guidance and deal-closure (propensity) prediction, the groundwork for the production features above.</li>
+                                <li><strong>Revenue-recognition logic.</strong> Implemented domain logic in Java/Spring Boot services and the PL/SQL layer.</li>
+                                <li><strong>AI prototypes.</strong> Python proofs of concept for deal guidance and deal-closure prediction, the groundwork for the production features.</li>
                             </ul>
+                            <p class="role__tags">Java · Spring Boot · PL/SQL · Python</p>
                         </div>
                     </li>
                 </ol>
@@ -225,6 +224,20 @@
                     <h2>Inside the AI Diagnostics Agent</h2>
                     <p class="lead">A security gateway keeps sensitive identifiers out of the LLM.</p>
                 </div>
+                <figure class="case__diagram" role="img" aria-label="Request flow: an engineer asks the OpenCode agent; tool calls pass through the MCP security gateway (allowlist, PII redaction, HMAC tokens, audit) to read-only sources (Kubernetes, Prometheus, Elasticsearch, Grafana/Loki, MariaDB, MongoDB); an evidence-backed RCA report returns to the engineer.">
+                    <svg viewBox="0 0 1000 290" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="d-arrowhead"/></marker>
+                        <marker id="arrg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="d-arrowhead-g"/></marker></defs>
+                        <g class="d-box"><rect x="0" y="30" width="200" height="150" rx="6"/><text x="16" y="62" class="d-t">Engineer</text><text x="16" y="92" class="d-s">Plain-language question</text><text x="16" y="112" class="d-s">or slash command</text></g>
+                        <g class="d-box"><rect x="262" y="30" width="200" height="150" rx="6"/><text x="278" y="62" class="d-t">OpenCode agent</text><text x="278" y="92" class="d-s">Loads skill + runbook</text><text x="278" y="112" class="d-s">Locks to one cluster</text><text x="278" y="132" class="d-s">Anchors time from OS clock</text></g>
+                        <g class="d-box d-key"><rect x="524" y="30" width="210" height="150" rx="6"/><text x="540" y="62" class="d-t">MCP security gateway</text><text x="540" y="92" class="d-s">Fail-closed tool allowlist</text><text x="540" y="112" class="d-s">PII redaction</text><text x="540" y="132" class="d-s">HMAC-SHA256 session tokens</text><text x="540" y="152" class="d-s">Hash-only audit log</text></g>
+                        <g class="d-box"><rect x="796" y="30" width="204" height="150" rx="6"/><text x="812" y="62" class="d-t">Read-only sources</text><text x="812" y="92" class="d-s">Kubernetes · Prometheus</text><text x="812" y="112" class="d-s">Elasticsearch · Grafana/Loki</text><text x="812" y="132" class="d-s">MariaDB · MongoDB</text><text x="812" y="152" class="d-s">3 isolated clusters</text></g>
+                        <g class="d-flow"><line x1="200" y1="105" x2="258" y2="105" marker-end="url(#arr)"/><line x1="462" y1="105" x2="520" y2="105" marker-end="url(#arr)"/><line x1="734" y1="105" x2="792" y2="105" marker-end="url(#arr)"/></g>
+                        <text x="229" y="96" class="d-l" text-anchor="middle">ask</text><text x="491" y="96" class="d-l" text-anchor="middle">tool call</text><text x="763" y="96" class="d-l" text-anchor="middle">query</text>
+                        <path d="M898 180 V240 H100 V184" class="d-back" marker-end="url(#arrg)"/>
+                        <text x="500" y="268" class="d-r" text-anchor="middle">Redacted evidence → correlated PromQL, logs and pod state → RCA report (HTML/SVG)</text>
+                    </svg>
+                </figure>
                 <ol class="case__flow">
                     <li><span class="case__n" aria-hidden="true">1</span><p>An engineer asks a question or runs a slash command.</p></li>
                     <li><span class="case__n" aria-hidden="true">2</span><p>The agent loads the matching skill and runbook, locks to one cluster and anchors time from the OS clock.</p></li>
@@ -288,6 +301,7 @@
                                 <span class="index__stack">Python, LangChain, ChromaDB, Claude API, Scapy, Random Forest, JavaScript</span>
                             </summary>
                             <p class="index__more">The in-browser demo runs the full pipeline with no backend: it decodes call signaling (SIP), data-session control (PFCP), core service APIs (HTTP/2 SBI) and voice media (RTP), builds per-flow features, classifies each flow with a Random Forest, retrieves matching 3GPP passages (TS 23.501, 29.244, 29.500, 24.229, 33.501) and explains the root cause, with a chat box for follow-up questions. Engineers spend less time reading traces by hand.</p>
+                            <figure class="index__shot"><img src="/img/ai-pcap.webp" width="960" height="600" loading="lazy" decoding="async" alt="AI PCAP Analyzer: decoded packets, the five-step analysis pipeline and per-flow results for a failed PFCP session"></figure>
                         </details>
                         <p class="index__repo"><a class="text-link" href="https://ai-pcap-analysis.vercel.app/" target="_blank" rel="noopener" aria-label="AI Network Traffic Anomaly Analyzer live demo">Live demo</a><a class="text-link" href="https://github.com/Navaz-Chilakala/AI-PCAP-Analysis" target="_blank" rel="noopener" aria-label="AI Network Traffic Anomaly Analyzer on GitHub">GitHub</a></p>
                     </li>
@@ -311,6 +325,7 @@
                                 <span class="index__stack">Electron, TypeScript, Ollama, local speech and vision models</span>
                             </summary>
                             <p class="index__more">Wake-word voice with push-to-talk and spoken replies, reading and creating PDF, Word, Excel and PowerPoint files, reminders, web research and memory across chats, plus a separate coding view with editor, terminal and Git. Every action passes a permission check in code, and risky ones ask first.</p>
+                            <figure class="index__shot"><img src="/img/jarvin.webp" width="960" height="600" loading="lazy" decoding="async" alt="Jarvin after opening Calculator and working out 12 times 12"></figure>
                         </details>
                         <p class="index__repo"><a class="text-link" href="https://github.com/Navaz-Chilakala/jarvin/blob/main/promo/jarvin-linkedin-sound.mp4" target="_blank" rel="noopener" aria-label="Jarvin demo video">Demo video</a><a class="text-link" href="https://github.com/Navaz-Chilakala/jarvin" target="_blank" rel="noopener" aria-label="Jarvin on GitHub">GitHub</a></p>
                     </li>
@@ -323,6 +338,7 @@
                                 <span class="index__stack">Django, React, Vite, PostgreSQL, Web Crypto (AES-GCM), Vercel</span>
                             </summary>
                             <p class="index__more">The room secret lives only in the invite link&rsquo;s #fragment, which browsers never send to the server. The browser derives an AES-GCM key and an opaque room ID from it with PBKDF2, so the server stores only ciphertext and hashes. Sessions use 10-minute bearer tokens, a Vercel Cron job purges old data, and nothing is kept in cookies or localStorage.</p>
+                            <figure class="index__shot"><img src="/img/chat.webp" width="960" height="600" loading="lazy" decoding="async" alt="Ephemeral Chat start screen: pick a name, create a private room or join one"></figure>
                         </details>
                         <p class="index__repo"><a class="text-link" href="https://chat-app-rho-nine-hmua8jgd8t.vercel.app/" target="_blank" rel="noopener" aria-label="Ephemeral Chat live demo">Live demo</a><a class="text-link" href="https://github.com/Navaz-Chilakala/chat-app" target="_blank" rel="noopener" aria-label="Ephemeral Chat on GitHub">GitHub</a></p>
                     </li>
